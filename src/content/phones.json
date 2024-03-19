@@ -1,0 +1,28 @@
+{
+    "phones":[
+        {
+            "img": "",
+            "name": "Iphone 12",
+            "price": "300usd",
+            "description": "lorem etc etc"
+        },
+        {
+            "img": "",
+            "name": "Iphone 11",
+            "price": "250usd",
+            "description": "lorem etc etc"
+        },
+        {
+            "img": "",
+            "name": "Iphone 11",
+            "price": "200usd",
+            "description": "lorem etc etc"
+        },
+        {
+            "img": "",
+            "name": "Iphone 14",
+            "price": "500usd",
+            "description": "lorem etc etc"
+        }
+    ]
+}
