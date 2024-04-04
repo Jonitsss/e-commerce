@@ -1,0 +1,56 @@
+---
+import 'animate.css';
+import Image from 'astro/components/Image.astro';
+//importamos imagenes
+//Iphone Blue
+import blue1 from '../assets/slider/blue/blue-1.png'
+import blue2 from '../assets/slider/blue/blue-2.png'
+import blue3 from '../assets/slider/blue/blue-3.png'
+import blue4 from '../assets/slider/blue/blue-4.png'
+
+---
+
+<client:only>
+    <script>
+        import Swiper from 'swiper';
+        import { Autoplay } from 'swiper/modules';
+        import 'swiper/css';
+        import 'swiper/css/autoplay';
+    
+        // Inicializa Swiper con autoplay
+        const swiper = new Swiper('.swiper', {
+          direction: 'horizontal', // Dirección del swiper (horizontal o vertical)
+          loop: true, // Hacer loop del swiper
+          autoplay: {
+            delay: 2000, // Tiempo de espera entre diapositivas en milisegundos (2 segundos en este caso)
+          },
+          modules: [Autoplay], // Agrega el módulo de autoplay
+          fadeEffect: {
+            crossFade: true // Habilita el efecto de fade entre diapositivas
+          }
+        });
+      </script>
+</client:only>
+<div class="h-[450px] columns-2 relative">
+  <div class="h-full flex justify-center items-center z-10 relative">
+    <h1 class="font-bold text-6xl text-center">¿Estás buscando tu primer iPhone?</h1>
+  </div>
+  <div class="h-full relative">
+    <div class="swiper absolute top-0 left-0 h-full w-full">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide relative">
+          <Image src={blue1} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp" style="z-index: 1;"/>
+          <Image src={blue2} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown" style="z-index: 2;"/>
+          <Image src={blue3} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft" style="z-index: 3;"/>
+          <Image src={blue4} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight" style="z-index: 4;"/>
+        </div>
+        <div class="swiper-slide relative">
+          <Image src={blue1} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 1;"/>
+          <Image src={blue2} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 2;"/>
+          <Image src={blue3} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 3;"/>
+          <Image src={blue4} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 4;"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
