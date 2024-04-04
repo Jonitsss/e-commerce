@@ -1,5 +1,6 @@
 ---
 import 'animate.css';
+
 import Image from 'astro/components/Image.astro';
 //importamos imagenes
 //Iphone Blue
@@ -7,7 +8,31 @@ import blue1 from '../assets/slider/blue/blue-1.png'
 import blue2 from '../assets/slider/blue/blue-2.png'
 import blue3 from '../assets/slider/blue/blue-3.png'
 import blue4 from '../assets/slider/blue/blue-4.png'
-
+//Iphone Green
+import green1 from '../assets/slider/green/green-1.png'
+import green2 from '../assets/slider/green/green-2.png'
+import green3 from '../assets/slider/green/green-3.png'
+import green4 from '../assets/slider/green/green-4.png'
+//Iphone midnight
+import midnight1 from '../assets/slider/midnight/midnight-1.png'
+import midnight2 from '../assets/slider/midnight/midnight-2.png'
+import midnight3 from '../assets/slider/midnight/midnight-3.png'
+import midnight4 from '../assets/slider/midnight/midnight-4.png'
+//Iphone pink
+import pink1 from '../assets/slider/pink/pink-1.png'
+import pink2 from '../assets/slider/pink/pink-2.png'
+import pink3 from '../assets/slider/pink/pink-3.png'
+import pink4 from '../assets/slider/pink/pink-4.png'
+//Iphone red
+import red1 from '../assets/slider/red/red-1.png'
+import red2 from '../assets/slider/red/red-2.png'
+import red3 from '../assets/slider/red/red-3.png'
+import red4 from '../assets/slider/red/red-4.png'
+//Iphone starlight
+import starlight1 from '../assets/slider/starlight/starlight-1.png'
+import starlight2 from '../assets/slider/starlight/starlight-2.png'
+import starlight3 from '../assets/slider/starlight/starlight-3.png'
+import starlight4 from '../assets/slider/starlight/starlight-4.png'
 ---
 
 <client:only>
@@ -31,7 +56,7 @@ import blue4 from '../assets/slider/blue/blue-4.png'
         });
       </script>
 </client:only>
-<div class="h-[450px] columns-2 relative">
+<div class="h-[450px] columns-2 relative mb-20">
   <div class="h-full flex justify-center items-center z-10 relative">
     <h1 class="font-bold text-6xl text-center">¿Estás buscando tu primer iPhone?</h1>
   </div>
@@ -39,17 +64,41 @@ import blue4 from '../assets/slider/blue/blue-4.png'
     <div class="swiper absolute top-0 left-0 h-full w-full">
       <div class="swiper-wrapper">
         <div class="swiper-slide relative">
-          <Image src={blue1} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp" style="z-index: 1;"/>
-          <Image src={blue2} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown" style="z-index: 2;"/>
-          <Image src={blue3} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft" style="z-index: 3;"/>
-          <Image src={blue4} alt='' class="absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight" style="z-index: 4;"/>
+          <Image src={starlight1} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp'/>
+          <Image src={starlight2} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown'/>
+          <Image src={starlight3} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft'/>
+          <Image src={starlight4} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight'/>
         </div>
         <div class="swiper-slide relative">
-          <Image src={blue1} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 1;"/>
-          <Image src={blue2} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 2;"/>
-          <Image src={blue3} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 3;"/>
-          <Image src={blue4} alt='' class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 4;"/>
+          <Image src={pink1} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={pink2} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={pink3} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={pink4} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
         </div>
+        <div class="swiper-slide relative">
+          <Image src={midnight1} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={midnight2} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={midnight3} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <Image src={midnight4} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        </div>
+        <div class="swiper-slide relative">
+          <Image src={blue1} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 1;"/>
+          <Image src={blue2} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 2;"/>
+          <Image src={blue3} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 3;"/>
+          <Image src={blue4} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 4;"/>
+      </div>
+      <div class="swiper-slide relative">
+        <Image src={green1} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={green2} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={green3} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={green4} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
+      </div>
+      <div class="swiper-slide relative">
+        <Image src={red1} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={red2} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={red3} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
+        <Image src={red4} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
+      </div>
       </div>
     </div>
   </div>
