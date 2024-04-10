@@ -1,7 +1,6 @@
 ---
 import 'animate.css';
 
-import Image from 'astro/components/Image.astro';
 //importamos imagenes
 //Iphone Blue
 import blue1 from '../assets/slider/blue/blue-1.png'
@@ -58,48 +57,22 @@ import starlight4 from '../assets/slider/starlight/starlight-4.png'
 </client:only>
 <div class="h-[450px] columns-2 relative mb-20">
   <div class="h-full flex justify-center items-center z-10 relative">
-    <h1 class="font-bold text-6xl text-center">¿Estás buscando tu primer iPhone?</h1>
+    <h1 class="font-bold text-6xl text-center">¿Estás buscando tu primer Iphone?</h1>
   </div>
   <div class="h-full relative">
     <div class="swiper absolute top-0 left-0 h-full w-full">
       <div class="swiper-wrapper">
         <div class="swiper-slide relative">
-          <Image src={starlight1} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp'/>
-          <Image src={starlight2} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown'/>
-          <Image src={starlight3} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft'/>
-          <Image src={starlight4} alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-2.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-1.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-3.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-4.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight'/>
         </div>
         <div class="swiper-slide relative">
-          <Image src={pink1} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={pink2} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={pink3} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={pink4} alt='Iphone 13 Pink' class='absolute top-0 left-0 w-full h-full object-cover'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-2.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInDown'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-1.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInUp'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-3.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInLeft'/>
+          <img src="https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/slider/starlight/starlight-4.png" alt='Iphone 13 Starlight' class='absolute top-0 left-0 w-full h-full object-cover animate__animated animate__fadeInRight'/>
         </div>
-        <div class="swiper-slide relative">
-          <Image src={midnight1} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={midnight2} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={midnight3} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
-          <Image src={midnight4} alt='Iphone 13 Midnight' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        </div>
-        <div class="swiper-slide relative">
-          <Image src={blue1} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 1;"/>
-          <Image src={blue2} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 2;"/>
-          <Image src={blue3} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 3;"/>
-          <Image src={blue4} alt="Iphone 13 Blue" class="absolute top-0 left-0 w-full h-full object-cover" style="z-index: 4;"/>
-      </div>
-      <div class="swiper-slide relative">
-        <Image src={green1} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={green2} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={green3} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={green4} alt='Iphone 13 Grenn' class='absolute top-0 left-0 w-full h-full object-cover'/>
-      </div>
-      <div class="swiper-slide relative">
-        <Image src={red1} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={red2} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={red3} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
-        <Image src={red4} alt='Iphone 13 Red' class='absolute top-0 left-0 w-full h-full object-cover'/>
-      </div>
-      </div>
-    </div>
   </div>
 </div>

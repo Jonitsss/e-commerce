@@ -1,20 +1,23 @@
 ---
 const {phones :{name,color,storage,baterry, price, img}} = Astro.props
 ---
-  <div class="group relative">
-    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-      <img src={img} alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+<div class="">
+    <div class="lg:h-72">
+        <img src={img} alt="" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
     </div>
     <div class="mt-4 flex justify-between">
-      <div>
-        <h3 class="text-sm text-gray-700">
-          <a href="#">
-            <span aria-hidden="true" class="absolute inset-0"></span>
-            {name}
-          </a>
-        </h3>
-        <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div>
+          <h3 class="text-sm font-bold text-gray-900">{name}</h3>
+          <p class="mt-1 text-sm text-gray-500">{color}</p>
+          <p class="mt-1 text-sm text-gray-500">{storage}🧠</p>
+          <p class="mt-1 text-sm text-gray-500">{baterry}🔋</p>
+        </div>
+        <p class="text-sm font-medium text-gray-900">${price}</p>
       </div>
-      <p class="text-sm font-medium text-gray-900">${price}</p>
-    </div>
-  </div>
+      <div>
+        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mt-2 h-full w-full border border-blue-500 hover:border-transparent rounded">
+            Consultar Stock
+        </button>
+      </div>
+      
+</div>

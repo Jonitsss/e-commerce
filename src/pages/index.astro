@@ -1,9 +1,9 @@
 ---
-import PhoneData from '../content/phones.json'
-import Card from '../components/card.astro'
 import Navbar from '../components/navbar.astro'
 import Card2 from '../components/card2.astro'
 import Slider from '../components/slider.astro'
+import Products from '../components/products.astro'
+import Footer from '../components/footer.astro'
 ---
 
 <html lang="en">
@@ -14,22 +14,12 @@ import Slider from '../components/slider.astro'
 		<meta name="generator" content={Astro.generator} />
 		<title>Ing Tech</title>
 	</head>
-	<body class=" w-screen h-screen">
+	<body class=" w-full h-screen">
 		<Navbar/>
-			<main class="bg-white">
+			<main>
 				<Slider/>
-				<div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
-					<!--Menu de Filtros -->
-					<div class="bg-gray-100 p-4 col-span-1 sm:col-span-1">
-						1
-					</div>
-					<div class="col-span-1 sm:col-span-3">
-						<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-							<!--Productos aqui -->
-							{PhoneData.phones.map(phone =>(<Card2 phones={phone} />))}
-						</div>
-					</div>
-				</div>
+				<Products/>
 			</main>
+			<Footer/>
 	</body>
 </html>
