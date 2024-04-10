@@ -6,7 +6,7 @@
             "storage": "256",
             "baterry":"100%",
             "price": "180",
-            "img": "src/assets/8RoseGold256.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/8RoseGold256.jpeg"
         },
         {
             "name": "Iphone 8 Plus",
@@ -14,7 +14,7 @@
             "storage": "64",
             "baterry":"100%",
             "price": "230",
-            "img": "src/assets/8plusBlack64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/8plusBlack64.jpeg"
         },
         {
             "name": "Iphone 11",
@@ -22,7 +22,7 @@
             "storage": "64",
             "baterry":"100%",
             "price": "340",
-            "img": "src/assets/11Yellow64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/11Yellow64.jpeg"
         },
         {
             "name": "Iphone 11",
@@ -30,7 +30,7 @@
             "storage": "64",
             "baterry":"100%",
             "price": "340",
-            "img": "src/assets/11Black128.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/11Black128.jpeg"
         },
         {
             "name": "Iphone 11 Pro",
@@ -38,7 +38,7 @@
             "storage": "64",
             "baterry":"81%",
             "price": "370",
-            "img": "src/assets/11proWhite64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/11proWhite64.jpeg"
         },
         {
             "name": "Iphone 11 pro",
@@ -46,7 +46,7 @@
             "storage": "64",
             "baterry":"80%",
             "price": "350",
-            "img": "src/assets/11proGreen64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/11proGreen64.jpeg"
         },
         {
             "name": "Iphone 12",
@@ -54,7 +54,7 @@
             "storage": "64",
             "baterry":"92%",
             "price": "410",
-            "img": "src/assets/12Purple64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/12Purple64.jpeg"
         },
         {
             "name": "Iphone 12",
@@ -62,7 +62,7 @@
             "storage": "64",
             "baterry":"91%",
             "price": "410",
-            "img": "src/assets/12White64.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/12White64.jpeg"
         },
         {
             "name": "Iphone 12",
@@ -70,7 +70,7 @@
             "storage": "128",
             "baterry":"97%",
             "price": "460",
-            "img": "src/assets/12Green128.jpeg"
+            "img": "https://raw.githubusercontent.com/Jonitsss/e-commerce/main/src/assets/12Green128.jpeg"
         }
     ]
 }
