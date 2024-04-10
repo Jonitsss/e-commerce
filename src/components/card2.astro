@@ -1,10 +1,10 @@
 ---
 const {phones :{name,color,storage,baterry, price, img}} = Astro.props
 
-let number ="1138007277"
-let mensaje = "Hola, estoy consultando por el stock del "
-let txt = mensaje.replace(" ", "%20")
-let wsplink = "https://wa.me/" + number + "?text=" + txt + name
+let number ="1138007277";
+let mensaje = "Hola, estoy consultando por el stock del ";
+let txt = encodeURIComponent(mensaje + name);
+let wsplink = "https://wa.me/" + number + "?text=" + txt + "&image=" + encodeURIComponent(img);
 
 ---
 <div class="">
