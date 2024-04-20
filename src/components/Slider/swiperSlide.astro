@@ -1,0 +1,10 @@
+---
+const {src1, src2, src3, src4, alt} = Astro.props
+let url = "https://pub-da5252972ebd454a933cde77f0fd8a08.r2.dev"
+---
+<div class="swiper-slide relative">
+    <img src={url + src1} alt={alt} class='absolute top-0 left-0 w-full h-full object-cover'/>
+    <img src={url + src2} alt={alt} class='absolute top-0 left-0 w-full h-full object-cover'/>
+    <img src={url + src3} alt={alt} class='absolute top-0 left-0 w-full h-full object-cover'/>
+    <img src={url + src4} alt={alt} class='absolute top-0 left-0 w-full h-full object-cover'/>
+</div>
